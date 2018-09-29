@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: lightgray;
     margin: 0px;
@@ -84,13 +87,31 @@ h2 {
     margin-left: 15%;
     margin-right: 15%;
     width: 960px;
-    margin-top: 60px;
-    
+    margin-top: 0px;
 }
 #contactHead {
+    margin: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #4aaaa5;
+}
+#containerContact {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    margin: 0px;
+    margin-left: 15%;
+    margin-top: 0px;
+    width: 960px;
+    padding-top: 10px;
+    
+}
+.contactRequest {
+    width: 960px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.messageInput {
+    height:
 }
 footer {
     position: absolute;
