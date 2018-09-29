@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 body {
     background-color: lightgray;
     margin: 0px;
@@ -112,10 +109,6 @@ h2 {
     width: 960px;
     margin-left: 15%;
     margin-right: 15%;
-}
-
-.messageInput {
-    height:
 }
 footer {
     position: absolute;
