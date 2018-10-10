@@ -1,49 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title>Ashley Moras</title>
-    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <title>Contact</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="leftContainer">
-                <h1 id="name">Ashley Moras</h1>
-            </div>
-            <div class="rightContainer">
-                <div class="navItem" id="about">
-                    <a href="index.html">About</a>
-                    </div>
-                <div class="navItem" id="portfolio">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                <div class="navItem" id="contact">
-                    <a href="contact.html">Contact</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="container-fullwidth">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Ashley Moras</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div> <!-- end navbarCollapse -->
+        </nav>
+    </div> <!-- end containerFullwidth -->
 
+    <!-- Footer -->
 
-    <div class="containerContact">
-        <p class="contactHeader">Contact</p>
-        <form class="contactRequest">
-            <h3 class="name">Name</h3>
-                <input class="nameInput" type="text">
-            <h3 class="email">Email</h3>
-                <input class="emailInput" type="text">
-            <h3 class="message">Message</h3>
-                <input class="messageInput" type="text">
-        </form>
+    <div class="navbar fixed-bottom navbar-dark bg-dark">
+            <span class="navbarText">
+                <span style="color:snow">
+                    Copyright ©
+                </span> <!-- end span style -->
+            </span> <!-- end navbar text -->
+        </div> <!-- end footer -->
+            
+    <!-- Content -->
 
-        <button class="submit">Submit</button>
-    </div>
-            <footer class="footerContact">
-                Copyright ©
-            </footer>
-</body>
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px">
+        <div class="jumbotron">
+            <h1 class="display-3">Contact</h1>
+            <p class="lead">Please fill out the contact request below for more information.</p>
+            <hr class="my-2">
+            <form>
+                <div class="form-group">
+                    <label for="inputName1">Name</label>
+                    <input type="name" class="form-control" id="inputName1" aria-describedby="nameInput" placeholder="Enter your first and last name">
+                </div> <!-- end Name group -->
+                <div class="form-group">
+                    <label for="inputEmail1">Email</label>
+                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailInput" placeholder="Enter your email address">
+                </div> <!-- end Email group-->
+                <div class="form-group">
+                    <label for="inputTextarea1">Message</label>
+                    <textarea class="form-control" id="inputTextarea1" rows="5" placeholder="Please enter your message here"></textarea>
+                </div> <!-- end Text area group -->
+            </form>
+        </div> <!-- end Jumbrotron -->
+    </div> <!-- End Contact container -->
+    
+        <!-- JavaScript jQuery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
 
-</html>
+    </body>
+    </html>
+    
