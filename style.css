@@ -2,9 +2,14 @@
     margin-left: 45%;
 }
 .container {
-    padding-top: 3.5%;
+    margin-top: 3.5%;
     padding-bottom: 3.5%;
+
 }
 .jumbotron {
     padding-bottom: 0px;
+    padding-top: 0px;
+}
+#portrait-img {
+    margin-bottom: 10px;
 }
