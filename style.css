@@ -1,3 +1,10 @@
 .navbarText {
     margin-left: 45%;
 }
+.container {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}
+.jumbotron {
+    padding-bottom: 0px;
+}
